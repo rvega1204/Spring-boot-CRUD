@@ -51,8 +51,7 @@ Before running this application, ensure you have:
 
 1. Clone the repository (or download the source code):
 ```bash
-git clone <repository-url>
-cd spring-boot
+git clone https://github.com/rvega1204/Spring-boot-CRUD.git
 ```
 
 2. Install dependencies:
@@ -70,8 +69,8 @@ mvn clean install
 
 ```properties
 DB_URL=jdbc:postgresql://localhost:5432/postgres
-DB_USERNAME=ricardo
-DB_PASSWORD=password
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
 ```
 
 3. Start the PostgreSQL database using Docker Compose:
